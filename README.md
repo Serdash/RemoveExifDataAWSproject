@@ -21,7 +21,7 @@ Before you begin, make sure you have the following installed:
 
 # AWS Account setup - You will need access to an AWS account with sufficient permissions to:
 
-- Upload `.jpg` files to `st-bucket-a` 
+Upload `.jpg` files to `st-bucket-a` 
 
 
 Option 1: Admin Access  
