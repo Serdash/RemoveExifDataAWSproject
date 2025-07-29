@@ -17,7 +17,7 @@ Before you begin, make sure you have the following installed:
 
 - [Terraform](https://developer.hashicorp.com/terraform/downloads) **v1.12.2**
 - [Python](https://www.python.org/downloads/) **v3.9+**
-- [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
+- [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html) **v2**
 
 # AWS Account setup - You will need access to an AWS account with sufficient permissions to:
 
