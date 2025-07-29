@@ -8,17 +8,7 @@ Infrastructure is provisioned using **Terraform**, and the image processing logi
 
 # Architecture Overview:
 
-User (Jim)
-   │
-   └── Uploads .jpg ➡️ S3 Bucket A (st-bucket-a)
-                                │
-                                └── S3 Event Trigger
-                                          │
-                                          ▼
-                             AWS Lambda (pyExifRemover.py)
-                                          │
-                                          ▼
-                                S3 Bucket B (st-bucket-b)
+User (Jim) or admin -> Uploads .jpg -> S3 Bucket A (st-bucket-a) -> S3 Event Trigger -> AWS Lambda (pyExifRemover.py) ->exifRemovedJPG -> S3 Bucket B (st-bucket-b)
 
 
 #Prerequisites
