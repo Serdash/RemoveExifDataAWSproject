@@ -1,6 +1,3 @@
-# gel-platform-engineer-task - Serdash Turna
-
-
 This project sets up an automated pipeline to process `.jpg` images uploaded to an S3 bucket. The system removes any **EXIF metadata** and stores the cleaned images in a second S3 bucket.
 
 Infrastructure is provisioned using **Terraform**, and the image processing logic runs in an **AWS Lambda function written in Python**.
