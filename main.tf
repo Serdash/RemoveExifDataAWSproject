@@ -5,7 +5,7 @@ provider "aws" {
 terraform {
   backend "s3" {
     bucket       = "s3-terra-state-file"
-    key          = "genomics_platform_engineer_task/terraform.tfstate"
+    key          = "exifRemover/terraform.tfstate"
     region       = "eu-west-1"
     use_lockfile = true
 
